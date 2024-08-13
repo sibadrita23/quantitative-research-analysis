@@ -1,0 +1,24 @@
+quantitative-research-analysis/
+├── data/
+│   ├── raw/
+│   └── processed/
+├── notebooks/
+│   ├── 01_eda.ipynb
+│   └── 02_feature_engineering.ipynb
+├── src/
+│   ├── data/
+│   │   ├── get_data.py
+│   │   └── preprocess_data.py
+│   ├── models/
+│   │   ├── train_model.py
+│   │   └── evaluate_model.py
+│   ├── visualization/
+│   │   └── plot_results.py
+├── reports/
+│   ├── figures/
+│   └── final_report.md
+├── tests/
+│   └── test_data_processing.py
+├── README.md
+├── requirements.txt
+└── .gitignore
